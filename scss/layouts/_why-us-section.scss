@@ -1,0 +1,17 @@
+.why-us-section {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+  }
+
+  &__content {
+    padding: 24px 32px;
+    background-color: white;
+    border-radius: 32px;
+  }
+
+  &__icons {
+    fill: var(--color-primary-blue);
+  }
+}

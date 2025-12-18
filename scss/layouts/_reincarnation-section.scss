@@ -1,0 +1,28 @@
+.reincarnation-section {
+    &__container {
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    &__image {
+        border-radius: 50%;
+    }
+
+    &__content {
+        max-width: 710px;
+    }
+
+    &__ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__lili {
+        align-self: flex-start;
+    }
+
+    &__li {
+        align-self: flex-end;
+    }
+}

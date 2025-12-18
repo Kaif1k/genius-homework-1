@@ -1,0 +1,11 @@
+.section {
+    padding: 48px 0;
+
+    &__title {
+        text-align: center;
+        font-family: 'Play';
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 100%;
+    }
+}
